@@ -1,0 +1,3 @@
+script_dir=$(cd $(dirname $0);pwd)
+# echo $script_dir
+cd $script_dir/../bin && ./hello
